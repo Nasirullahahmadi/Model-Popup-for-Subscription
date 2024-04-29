@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Model Popup Box</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<button class="openPopup">Click here!</button>
+
+<div class="popupContainer">
+
+  <div class="popupContent">
+    <i class="fa-solid fa-envelope-open-text envelope"></i>
+    <h3>Don't miss any updates</h3>
+    <p>Get the latest content and best deals in your inbox every day!</p>
+
+    <form action="index.html" method="post">
+      <input type="email" placeholder="Enter your email">
+      <input type="submit" value="Subscribe">
+    </form>
+    <i class="fa-solid fa-xmark closeIcon" id="closeIcon"></i>
+  </div>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
